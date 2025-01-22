@@ -8,7 +8,7 @@ const ListaTODOs = (props : ListaTODOsProps) =>{
         <ul id="todos">
         {
             props.lista.map((item: TODO)=>{
-                return <li>{item}</li>
+                return <li>{item.descripcion}</li>
             })
         }
         </ul>

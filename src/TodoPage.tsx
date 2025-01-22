@@ -3,7 +3,7 @@ import FormularioTODO from "./FormularioTODO"
 import ListaTODOs from "./ListaTODOs"
 import Footer from "./Footer"
 
-interface TODO{
+export interface TODO{
     descripcion : string;
     fecha : Date
 }
@@ -15,7 +15,7 @@ const TodoPage = () =>{
             fecha : new Date()
         },
         {
-            descripcion: "Dormir",
+            descripcion: "Comer",
          fecha : new Date()
         }
     ]
