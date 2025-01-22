@@ -1,4 +1,4 @@
 const Footer = () =>{
-    return <div>Footer</div>
+    return <div>Programación Web :: 2025-0</div>
 }
 export default Footer
